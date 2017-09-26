@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'KissXML/**/*.{h,m,swift}'
   s.private_header_files = 'KissXML/Private/**/*.h'
+  s.ios.exclude_files = 'KissXML/**/*.swift'
   s.osx.exclude_files = 'KissXML/**/*.swift'
   s.library      = 'xml2'
   s.xcconfig     = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}

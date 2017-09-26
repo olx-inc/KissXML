@@ -12,7 +12,6 @@
 		0DCD8DE81E54A3C6001D9832 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD8DD91E54A3C6001D9832 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DCD8DE91E54A3C6001D9832 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD8DDA1E54A3C6001D9832 /* NSString+DDXML.m */; };
 		0DCD8DEA1E54A3C6001D9832 /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD8DDB1E54A3C6001D9832 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DCD8DEB1E54A3C6001D9832 /* DDXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD8DDC1E54A3C6001D9832 /* DDXML.swift */; };
 		0DCD8DEC1E54A3C6001D9832 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD8DDD1E54A3C6001D9832 /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DCD8DED1E54A3C6001D9832 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD8DDE1E54A3C6001D9832 /* DDXMLDocument.m */; };
 		0DCD8DEE1E54A3C6001D9832 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCD8DDF1E54A3C6001D9832 /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -415,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DCD8DEB1E54A3C6001D9832 /* DDXML.swift in Sources */,
 				0DCD8DE71E54A3C6001D9832 /* DDXMLElementAdditions.m in Sources */,
 				0DCD8DED1E54A3C6001D9832 /* DDXMLDocument.m in Sources */,
 				0DCD8DF11E54A3C6001D9832 /* DDXMLNode.m in Sources */,
