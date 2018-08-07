@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'KissXML'
-  s.version      = '5.2.0'
+  s.version      = '5.2.3'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.summary      = 'A replacement for Cocoa\'s NSXML cluster of classes. Based on libxml.'
   s.homepage     = 'https://github.com/robbiehanson/KissXML'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = 'KissXML/**/*.{h,m,swift}'
+  s.source_files = 'KissXML/**/*.{h,m}'
   s.private_header_files = 'KissXML/Private/**/*.h'
   s.ios.exclude_files = 'KissXML/**/*.swift'
   s.osx.exclude_files = 'KissXML/**/*.swift'
